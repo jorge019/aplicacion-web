@@ -1,0 +1,10 @@
+{% extends 'base/principal.html' %}
+{% block content %}
+
+<h1>HAS CERRADO SESIÓN</h1>
+
+<p>Pulsa aquí si quieres iniciar sesión con un usuario existente o crear uno nuevo:</p>
+<p><a href="{% url 'login' %}">Iniciar</p>
+</a>Nuevo Usuario: <a href="{% url 'registro' %}">Registrate</a>
+
+{% endblock content %}
